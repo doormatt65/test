@@ -15,8 +15,8 @@ app.use(express.json());
 const names = require('./names.json');
 
 // Logs the port # the server is on
-app.listen(process.env.PORT, 'https://demo-webserver.onrender.com', () => {
-    console.log('listening on port ' + process.env.PORT + ' at site https://demo-webserver.onrender.com');
+app.listen('https://demo-webserver.onrender.com', () => {
+    console.log('site https://demo-webserver.onrender.com');
 });
 
 // Gives the front end the index information
